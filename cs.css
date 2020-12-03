@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.time{
+    text-align: center;
+    position: relative;
+    top: 20px;
+
+}
+.light{
+    background-color: black;
+    color: white;
+    border-color: cornsilk;  
+}
+
+#es{
+    margin-top: 23px;
+    text-align: center;
+}
+#min, #sec, #msec,#hr
+{
+    display: inline;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid green;
+    font-size: 30px;
+    margin: 20px;
+    color: honeydew;
+    background-color: darkgrey;
+}
+
+#start, #reset, #pause{
+
+    display: inline;
+    font-family: "Lucida Console", Courier, monospace;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    color: whitesmoke;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+    background-color: rgba(71, 116, 214, 0.692);
+}
+#start:hover, #reset:hover,#pause:hover{
+    background-color: white;
+    color: darkblue;
+}
+#mi
+{
+    display: inline;
+    font-size: 20px;
+    position: relative;
+    left: 2px;
+    top: 18px;
+   
+}
+#min{
+    position: relative;
+    left: 20px;
+}
+#se
+{
+    display: inline;
+    font-size: 20px;
+    position: relative;
+    left: -17px;
+    top: 18px;
+}
+#fs
+{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+
+#dark{
+border: none;
+padding: 10px;
+font-size: 15px;
+border-radius: 50px;
+}
+#dark:hover{
+    background-color: rgb(209, 209, 209);
+}
+#pr{
+    position: relative;
+    left: 20px;
+}
+#hr{
+    position: relative;
+    left: 20px;
+    
+}
+#hrm{
+    position: relative;
+    left: -132px;
+    top: -5px;
+}
+#body{
+    position: relative;
+    top: 200px;
+}
+#res{
+    position: relative;
+    top: 40px;
+    
+    text-align: center;
+    font-size: 20px;
+}
+#mode
+{
+    position: relative;
+    left: 300px;
+    top: -150px;
+}
+
+
